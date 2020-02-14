@@ -5,9 +5,9 @@ Pytorch implementation of our paper [Mobility Irregularity Detection with Smart 
 
 Xuesong Wang, Lina Yao, Wei Liu, Can Li, Lei Bai, and S. Travis Waller
 
-run main.py to test the model
+run [main.py](main.py) to test the model
  
 
-In order to use your own data,  see data format used in util.py
+In order to use your own data,  see data format used in [util.py](util.py)
 
-and modify class CategoricalEmbedding and class Route2Stop based on the categorical and numerical features of your data.
+and modify class CategoricalEmbedding and class Route2Stop in [model.py](model.py) based on the categorical and numerical features of your data.
